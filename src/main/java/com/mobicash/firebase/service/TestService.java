@@ -26,7 +26,6 @@ public class TestService implements TestServiceDefinition {
 
 	private String TEMP_URL = "";
 	private String DOWNLOAD_URL = "https://firebasestorage.googleapis.com/v0/b/manassetest-73543/o/%s?alt=media";
-
 	private String BACKET_NAME = "manassetest-73543.appspot.com";
 
 	public String uploadFile(File file, String fileName) throws IOException {
